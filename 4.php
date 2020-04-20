@@ -6,6 +6,6 @@ if (!$fp){
     echo "$errno";
 }else{
     fwrite($fp,"hello word");
-    echo fread($fp,1204);
+//    echo fread($fp,1204);
     fclose($fp);
 }
